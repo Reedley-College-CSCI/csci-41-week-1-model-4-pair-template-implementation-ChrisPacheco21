@@ -1,5 +1,5 @@
 // Pair.h
-// Your Names
+// Christopher Pacheco
 #ifndef PAIR_H
 #define PAIR_H
 
@@ -15,5 +15,12 @@ public:
     void setFirst(T f);
     void setSecond(T s);
 };
+
+template <typename T> 
+Pair<T>::Pair(T f, T s) {
+    first = f;
+    second = s;
+}
+
 
 #endif
