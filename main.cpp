@@ -5,16 +5,16 @@ using namespace std;
 
 int main() {
     // Test case
-    Pair<int>intConstructor(1, 2);
-    Pair<string>stringConstructor("apple", "banana");
+    Pair<int>ConstructorNumber(1, 2);
+    Pair<string>ConstructorName("apple", "banana");
 
     // Displays total sum
-    cout << "Total sum: " << intConstructor.getFirst() + intConstructor.getSecond() << endl; // Output: 3
+    cout << "Total sum: " << ConstructorNumber.getFirst() + ConstructorNumber.getSecond() << endl; // Output: 3
     cout << endl;
 
     // Displays name of the fruit
-    cout << "Fruit #1: " << stringConstructor.getFirst() << endl; //Ouput: apple
-    cout << "Fruit #2: " << stringConstructor.getSecond() << endl; //Ouput: banana
+    cout << "Fruit #1: " << ConstructorName.getFirst() << endl; //Ouput: apple
+    cout << "Fruit #2: " << ConstructorName.getSecond() << endl; //Ouput: banana
 
     return 0;
 }
